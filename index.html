@@ -1,0 +1,80 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climb Time Indy Unofficial</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <div class="content">
+    <header>
+        <img src="Images/HeadPhoto1.png" alt="Climb_Time_Interior" class="image-head">
+        <nav>
+            <div class="navbar">
+            <ul>
+                <a href="index.html" class="dim-on-hover">Home</a>
+                <a href="about.html" class="dim-on-hover">About</a>
+                <a href="prices.html" class="dim-on-hover">Prices</a>
+                <a href="Parties.html" class="dim-on-hover">Parties</a>
+                <a href="Waiver.html" class="dim-on-hover">Waiver</a>
+                <a href="Gallery.html" class="dim-on-hover">Gallery</a>
+                <a href="contact.html" class="dim-on-hover">Contact</a>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Climb Time Indy</h1>
+                <p><strong>Indiana's Best Climbing Gym Since 1997!</strong></p>
+                <p>
+                   Climb Time Indy is a rock climbing gym for all ages. Since 1997, it has been based in Indianapolis and providing a safe environment for climbers.     
+    
+                  We are dedicated to to providing the best that rock climbing has to offer. We are focused on maintaining a safe environment where climbers of all 
+                  ability levels and ages can get better, learn more and above all else, have fun climbing. Climb Time offers a wide range of difficulty levels from very easy 
+                    to moderate to extremely difficult, brought to you by some of the best route setters this side of the Mississippi. Whether you are looking for powerful bouldering, 
+                    sustained routes, or just a day out with the family, Climb Time Indy has what you are looking for. Come on by; we’d love for you to come climbing with us.
+                </p>
+        </section>
+        <hr class="faint-line">
+        <section id="mapping">
+            <div id="map"></div>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9qhRSNU39We-YUv4hWDfy3IwLD43JeJM&callback=initMap" async defer></script>
+            <script>
+                function initMap() {
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        center: {lat: 39.91579055786133, lng: -86.03923034667969},
+                        zoom: 17
+                    });
+                }
+            </script>
+        </section>
+        <section id="about">
+            <h2>Gym Information</h2>
+            <ul class="no-bullets">
+                <li><b>Address:</b> 8750 Corporation Drive</li>
+                <li><b>Phone:</b> 317-596-3335</li>
+                <li><b>Email:</b> Info@ClimbTimeIndy.com</li>
+                <li><b>Gym Hours:</b></li>
+                    <li>Monday-Friday 11am - 10pm</li>
+                   <li>Saturday 9am - 10pm</li>
+                    <li>Sunday 11am - 10pm</li>
+            </ul>
+        </section>
+        <figure>
+            <div class="bottom-bar">
+            <a href="https://www.instagram.com/climbtimeindy/"> <img src="Images/instagramlogo.png" alt="instagram" class="logo"> </a>
+            <a href="https://twitter.com/climbindy"> <img src="Images/twitterlogo.png" alt="Twitter" class="logo"> </a>
+            <a href="https://www.facebook.com/climbtimeindy/"> <img src="Images/facebooklogo.png" alt="facebook" class="logo"> </a>
+        </div>
+        </figure>
+    </main>
+    <footer>
+        <p2>&copy; <b>2024 Climb Time Indy.</b></p2>
+    </footer>
+    </div>
+</body>
+</html>
