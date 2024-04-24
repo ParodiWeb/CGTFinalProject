@@ -1,0 +1,242 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #00000075;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dim-on-hover:hover {
+    color: #3a3a3a;
+}
+
+.image-head {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+h3 {
+    font-size: 32px;
+    text-align: center;
+    padding: 0px;
+}
+
+p{
+    font-size: 16px;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+p2{
+    padding-left: 50px;
+}
+
+p3 {
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+ .no-bullets {
+    list-style-type: none;
+    text-align: center;
+    margin:auto;
+    } 
+
+
+#about {
+    margin-bottom: 20px;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 10%;
+    height: auto;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.bottom-bar {
+    position: relative;
+    top: 50px;
+    width: 130%;
+    background-color: #c4c3c375;
+    text-align: center;
+}
+
+.faint-line {
+    border: none;
+    border-top: 1px solid #ccc; 
+    margin: 30px 30px; }
+
+.balcony {
+    width: 80%;
+}
+
+.Rates {
+    width: 80%;
+}
+
+.TwoImages:hover img {
+    transform: scale(1.1); /* Scale the image up on hover */
+}
+
+.TwoImages img {
+    max-width: 100%; /* Ensure image does not exceed container width */
+    max-height: 100%; /* Ensure image does not exceed container height */
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.TwoImages {
+    display: flex; 
+    justify-content: center;
+}
+
+#Topher {
+    text-align: right; 
+}
+
+.Topher {
+    width: 100%; 
+    height: auto;
+    max-width: 20%; 
+    max-height: 100%;
+    padding-right: 50px; 
+}
+
+span {
+    display: inline-block;
+    text-align: left;
+    padding-right: 200px;
+    font-size: 24px;
+}
+
+#Topher {
+    display: flex; 
+    align-items: center; 
+}
+
+#Topher img {
+    flex-shrink: 0;
+    width: 400px; 
+    height: auto;
+    margin-right: 20px; 
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+#Topher span {
+    flex-grow: 1;
+}
+
+
+body {
+    font-size: 16px; 
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 32px; 
+}
+
+p {
+    font-size: 16px; 
+}
+
+span {
+    font-size: 24px;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; 
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 12px; 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    span {
+        font-size: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar a {
+        padding: 8px;
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 12px; 
+    }
+    h1 {
+        font-size: 24px; 
+    }
+    h2 {
+        font-size: 18px; 
+    }
+    p {
+        font-size: 10px; 
+    }
+    span {
+        font-size: 10px;
+    }
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar a {
+        padding: 8px;
+        font-size: small;
+    }
+}
